@@ -1,9 +1,9 @@
 {
   "version": 2,
   "builds": [
-    { "src": "./BD_4/Gaming_Community/index.js", "use": "@vercel/node" }
+    { "src": "BD_4/Gaming_Community/index.js", "use": "@vercel/node" }
   ],
   "rewrites": [
-    { "source": "/(.*)", "destination": "./BD_4/Gaming_Community/index.js" }
+    { "source": "/(.*)", "destination": "BD_4/Gaming_Community/index.js" }
   ]
 }
